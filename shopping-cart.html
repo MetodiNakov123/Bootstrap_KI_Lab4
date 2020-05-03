@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Shopping cart</title>
+
+    <!--  Import external css   -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/css/font-awesome.css">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th>Product</th>
+                    <th width="110">Price</th>
+                    <th width="140">Quantity</th>
+                    <th width="140">Subtotal</th>
+                    <th width="140"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <div class="media">
+                            <img src="img/100x100.png" class="img-fluid"/>
+                            <div class="media-body pl-4 pt-3" >
+                                <h5>Product 1</h5>
+                                <p style="font-size: 0.8em">Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </td>
+
+                    <td class="pt-5">
+                        $1.99
+                    </td>
+
+                    <td class="pt-5">
+                        <input type="number" style="width: 95px"/>
+                    </td>
+
+                    <td class="pt-5 pl-4">
+                        1.99
+                    </td>
+
+                    <td class="pt-5">
+                        <button class="btn btn-primary"><i class="fa fa-refresh"></i> </button>
+                        <button class="btn btn-danger"><i class="fa fa-trash-o"></i> </button>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <button class="btn text-white" style="background-color: darkorange">&lt;Continue shopping</button>
+                    </td>
+
+                    <td class="pt-3">
+                        Total $1.99
+                    </td>
+
+                    <td>
+                        <button class="btn btn-success">Checkout &gt;</button>
+                    </td>
+
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--  Import external Javascript  -->
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+
+
+</body>
+</html>
